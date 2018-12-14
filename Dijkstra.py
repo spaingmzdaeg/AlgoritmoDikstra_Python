@@ -3,7 +3,7 @@ import os
 import sys
 
 class Dijkstra:
-    def __init__(self):
+    def __init__(self):#final
         self.grafo = {'TIJ':{'MTY': 800},
                       'MZT':{'TIJ': 400, 'BJX': 300},
                       'MTY':{'BJX': 700},
